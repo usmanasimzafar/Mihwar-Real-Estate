@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Mihwar Real Estate | Premium Saudi Property Brokerage&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="The Pivot Point Between Global Capital and Saudi Real Estate. REGA Licensed brokerage specializing in HNW investment opportunities in Riyadh, Jeddah, and NEOM."&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Typography --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@300;400;500;700&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary-dark: #0D1B2A;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--secondary-navy: #1A2E45;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--gold: #B8922A;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--gold-light: #D4A843;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--cream: #F7F3EC;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--off-white: #FAF8F4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--muted-text: #6B7D8F;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--white: #FFFFFF;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--saudi-green: #006C35;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Reset &amp; Base */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* { margin: 0; padding: 0; box-sizing: border-box; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html { scroll-behavior: smooth; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'DM Sans', sans-serif;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--white);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mono { font-family: 'DM Mono', monospace; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container { max-width: 1320px; margin: 0 auto; padding: 0 40px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>section { padding: 120px 0; position: relative; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>a { text-decoration: none; color: inherit; transition: var(--transition); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ul { list-style: none; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>img { max-width: 100%; height: auto; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Buttons */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 16px 32px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: var(--transition);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-gold { background: var(--gold); color: var(--primary-dark); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-gold:hover { background: var(--gold-light); transform: translateY(-3px); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-outline { border: 1px solid var(--white); color: var(--white); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-outline:hover { background: var(--white); color: var(--primary-dark); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 1. NAVIGATION */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0; width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1000;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 25px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: var(--transition);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav.scrolled {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 30px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-inner { display: flex; justify-content: space-between; align-items: center; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo { display: flex; align-items: center; gap: 12px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-box {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 40px; height: 40px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid var(--gold);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Playfair Display', serif; font-weight: bold; color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-text div:first-child { font-weight: 700; letter-spacing: 2px; color: var(--white); font-size: 1.1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-text div:last-child { font-size: 0.6rem; color: var(--gold); font-family: 'DM Mono'; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-links { display: flex; gap: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-links a { font-size: 0.85rem; color: rgba(255,255,255,0.7); font-weight: 500; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-links a:hover, .nav-links a.active { color: var(--gold); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-cta { display: flex; align-items: center; gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.lang-toggle { font-family: 'DM Mono'; font-size: 0.75rem; color: var(--white); cursor: pointer; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 2. HERO */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-pattern {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>inset: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-image: radial-gradient(circle at 2px 2px, rgba(184, 146, 42, 0.05) 1px, transparent 0);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-size: 40px 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-glow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -10%; right: -10%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 50%; height: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: radial-gradient(circle, rgba(184, 146, 42, 0.1) 0%, transparent 70%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.arabic-bg {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 5%; bottom: 10%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 25rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.03;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-content { position: relative; z-index: 10; max-width: 900px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero h1 {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: clamp(2.5rem, 6vw, 4.5rem);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.1;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px 0 30px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero h1 span { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-sub { font-size: 1.2rem; color: rgba(255,255,255,0.8); max-width: 600px; margin-bottom: 40px; font-weight: 300; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-badges { display: flex; gap: 30px; margin-top: 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.badge { display: flex; align-items: center; gap: 10px; font-size: 0.7rem; border-left: 1px solid rgba(184, 146, 42, 0.3); padding-left: 15px; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-stats {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0; left: 0; width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(26, 46, 69, 0.8);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid rgba(255,255,255,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stats-inner { display: flex; justify-content: space-between; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-item h3 { color: var(--gold); font-size: 1.8rem; margin-bottom: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-item p { font-family: 'DM Mono'; font-size: 0.7rem; opacity: 0.7; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 3. WHY SAUDI */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-cream { background: var(--cream); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.why-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 80px; align-items: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-giant { font-size: 8rem; line-height: 1; color: var(--gold); margin-bottom: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline { margin-top: 40px; border-left: 1px solid var(--gold); padding-left: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-step { position: relative; margin-bottom: 25px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-step::before { content: ''; position: absolute; left: -34px; top: 10px; width: 8px; height: 8px; background: var(--gold); border-radius: 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-step strong { display: block; color: var(--gold); font-family: 'DM Mono'; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.reason-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.reason-card { background: var(--white); padding: 30px; border-radius: 4px; box-shadow: 0 5px 15px rgba(0,0,0,0.02); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.reason-card h4 { margin: 15px 0 10px; font-size: 1.1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.reason-card p { font-size: 0.85rem; color: var(--muted-text); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.tag-small { display: inline-block; padding: 2px 8px; background: rgba(184, 146, 42, 0.1); color: var(--gold); font-size: 0.6rem; font-family: 'DM Mono'; border-radius: 2px; margin-top: 15px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 4. SERVICES */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-dark { background: var(--primary-dark); color: var(--white); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.service-card {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--secondary-navy);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255,255,255,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.service-card .num {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute; top: 20px; right: 20px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3rem; color: var(--gold); opacity: 0.1; font-family: 'Playfair Display';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.service-card h3 { margin: 20px 0 15px; font-size: 1.25rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.service-card p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.service-card a { color: var(--gold); font-size: 0.8rem; font-weight: bold; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 5. PROJECTS */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-offwhite { background: var(--off-white); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-nav { display: flex; gap: 15px; margin: 40px 0; justify-content: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-btn {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 25px; border-radius: 20px; font-size: 0.8rem;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer; border: 1px solid #ddd; background: transparent;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: var(--transition);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-btn.active { background: var(--primary-dark); color: var(--white); border-color: var(--primary-dark); }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-card { background: var(--white); border-radius: 4px; overflow: hidden; border: 1px solid #eee; transition: var(--transition); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-img { height: 250px; background: #222; position: relative; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-img .type-badge { position: absolute; top: 20px; left: 20px; background: var(--primary-dark); color: var(--white); padding: 5px 12px; font-size: 0.6rem; font-family: 'DM Mono'; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-body { padding: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-body h3 { margin-bottom: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-loc { color: var(--muted-text); font-size: 0.85rem; margin-bottom: 20px; display: flex; align-items: center; gap: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-price { color: var(--gold); font-weight: 700; font-size: 1.1rem; display: block; margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-metrics { display: flex; justify-content: space-between; border-top: 1px solid #eee; padding-top: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.p-metric { text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.p-metric div:first-child { font-weight: 700; font-size: 0.9rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.p-metric div:last-child { font-size: 0.6rem; color: var(--muted-text); text-transform: uppercase; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 6. ABOUT */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.about-split { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.about-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.metric-box { background: var(--white); padding: 40px; border: 1px solid #eee; text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.metric-box h2 { font-size: 3rem; color: var(--primary-dark); margin-bottom: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.metric-box p { font-size: 0.75rem; color: var(--muted-text); text-transform: uppercase; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 7. INSIGHTS */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.insight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 50px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.insight-card { border: 1px solid #eee; background: var(--white); padding: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.insight-card .tag { color: var(--gold); font-size: 0.7rem; font-family: 'DM Mono'; margin-bottom: 15px; display: block; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.insight-card h3 { margin-bottom: 20px; line-height: 1.4; font-size: 1.3rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.author { display: flex; align-items: center; gap: 12px; border-top: 1px solid #eee; padding-top: 20px; margin-top: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.avatar { width: 35px; height: 35px; border-radius: 50%; background: var(--gold); display: flex; align-items: center; justify-content: center; color: var(--white); font-weight: bold; font-size: 0.7rem; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 8. CONTACT */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 100px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.contact-form { background: var(--white); padding: 50px; border-radius: 4px; box-shadow: 0 30px 60px rgba(0,0,0,0.2); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-group { margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-group label { display: block; font-family: 'DM Mono'; font-size: 0.7rem; margin-bottom: 8px; color: var(--primary-dark); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-group input, .form-group select, .form-group textarea {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%; padding: 15px; border: 1px solid #ddd; background: #f9f9f9; font-family: 'DM Sans';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* FOOTER */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer { background: #080F18; padding: 80px 0 40px; color: var(--white); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 50px; margin-bottom: 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-logo { margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-links h4 { font-family: 'DM Mono'; font-size: 0.8rem; color: var(--gold); margin-bottom: 25px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-links ul li { margin-bottom: 12px; opacity: 0.6; font-size: 0.9rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-bottom { border-top: 1px solid rgba(255,255,255,0.05); padding-top: 40px; display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; opacity: 0.5; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ANIMATIONS */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>[data-reveal] { opacity: 0; transform: translateY(30px); transition: 1s cubic-bezier(0.16, 1, 0.3, 1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>[data-reveal].active { opacity: 1; transform: translateY(0); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* RESPONSIVE */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 1024px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.why-grid, .about-split, .contact-grid { grid-template-columns: 1fr; gap: 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.services-grid, .project-grid, .insight-grid { grid-template-columns: 1fr 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.footer-grid { grid-template-columns: 1fr 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.services-grid, .project-grid, .insight-grid { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.nav-links { display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero-badges { display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero h1 { font-size: 2.8rem; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero-stats .stats-inner { flex-wrap: wrap; gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.stat-item { width: 45%; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.stat-giant { font-size: 5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* SVG Icons */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.icon { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.icon-gold { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 1. NAVIGATION --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav id="navbar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container nav-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#" class="logo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="logo-box"&gt;M&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="logo-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;MIHWAR&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;REAL ESTATE&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#why-saudi"&gt;Why Saudi&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#insights"&gt;Insights&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="nav-cta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="lang-toggle"&gt;EN | عربي&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="btn btn-gold"&gt;Book Consultation&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 2. HERO --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="hero" id="home"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-pattern"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-glow"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="arabic-bg"&gt;مِحوَر&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="hero-content" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mono" style="color: var(--gold); margin-bottom: 20px;"&gt;REGA LICENSED · FAL CERTIFIED · RIYADH, KSA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h1&gt;The Pivot Point Between&lt;br&gt;Global Capital and&lt;br&gt;&lt;span&gt;Saudi Real Estate&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="hero-sub"&gt;Connecting international investors with premium residential, commercial and off-plan property opportunities across the Kingdom of Saudi Arabia.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div style="display: flex; gap: 20px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#projects" class="btn btn-gold"&gt;Explore Opportunities&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#" class="btn btn-outline"&gt;Download Market Report&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="hero-badges"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="badge"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;REGA&lt;br&gt;Licensed&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="badge"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;FAL&lt;br&gt;Certified&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="badge"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;Vision 2030&lt;br&gt;Aligned&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-stats"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container stats-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="count" data-target="77"&gt;$77B&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Market Size&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="count" data-target="7.3"&gt;7.3%&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Avg Yield&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="count" data-target="0"&gt;0%&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Rental Tax&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="count" data-target="170"&gt;170+&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Investment Zones&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 3. WHY SAUDI --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="bg-cream" id="why-saudi"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="why-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mono" style="color: var(--gold);"&gt;THE INVESTMENT CASE&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 style="font-size: 3rem; margin: 15px 0 40px;"&gt;Why Saudi Arabia. Why Now.&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-giant serif"&gt;$141B&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-weight: 500;"&gt;Projected market size by 2034&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;strong&gt;2024&lt;/strong&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;CMA opens Makkah &amp; Madinah listed company shares&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;strong&gt;2025&lt;/strong&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Foreign ownership law enacted (Royal Decree)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;strong&gt;2026&lt;/strong&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Full foreign property ownership effective (170+ zones)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="reason-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="reason-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;svg class="icon icon-gold"&gt;&lt;path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"&gt;&lt;/path&gt;&lt;circle cx="12" cy="10" r="3"&gt;&lt;/circle&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;Foreign Ownership&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Non-Saudis can now own property in designated zones across the Kingdom.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="tag-small"&gt;Historic First&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="reason-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;svg class="icon icon-gold"&gt;&lt;path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;Zero Rental Tax&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;International investors keep 100% of their rental yields with no personal income tax.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="tag-small"&gt;Tax Efficient&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="reason-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;svg class="icon icon-gold"&gt;&lt;path d="M22 12h-4l-3 9L9 3l-3 9H2"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;High Yields&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Average rental yields of 7.3% outperform Dubai, London, and New York.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="tag-small"&gt;Market Leading&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="reason-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;svg class="icon icon-gold"&gt;&lt;path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;Vision 2030&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;$1 Trillion in mega-projects including NEOM, Diriyah, and Red Sea Global.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="tag-small"&gt;Growth Engine&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 4. SERVICES --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="bg-dark" id="services"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mono" style="color: var(--gold);"&gt;WHAT WE DO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 style="font-size: 3rem; margin: 15px 0 0;"&gt;Full-Service Real Estate. End to End.&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="services-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="service-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="num"&gt;01&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Brokerage &amp; Transactions&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;We source, negotiate and close deals for international buyers across residential and commercial assets.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#"&gt;Learn More →&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="service-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="num"&gt;02&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Investment Advisory&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Market research and feasibility studies for foreign institutions entering the KSA market.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#"&gt;Learn More →&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="service-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="num"&gt;03&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Property Sourcing&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Exclusive access to off-market opportunities through our deep developer network in Riyadh.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#"&gt;Learn More →&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="service-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="num"&gt;04&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Market Intelligence&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Quarterly reporting on regulatory changes and price trends for active portfolio investors.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#"&gt;Learn More →&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 5. PROJECTS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="bg-offwhite" id="projects"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div style="text-align: center;" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mono"&gt;INVESTMENT OPPORTUNITIES&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 style="font-size: 3rem; margin: 15px 0;"&gt;Where We Operate&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="filter-nav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="filter-btn active" data-filter="all"&gt;All&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="filter-btn" data-filter="residential"&gt;Residential&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="filter-btn" data-filter="commercial"&gt;Commercial&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="filter-btn" data-filter="off-plan"&gt;Off-Plan&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Card 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="project-card" data-cat="residential" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-img" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;q=80&amp;w=800'); background-size: cover;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="type-badge"&gt;RESIDENTIAL&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;Premium Villa — North Riyadh&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-loc"&gt;📍 Hittin District, Riyadh&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="project-price"&gt;From SAR 2,800,000&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-metrics"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;6.8%&lt;/div&gt;&lt;div&gt;Yield&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;450&lt;/div&gt;&lt;div&gt;SQM&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;Available&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Card 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="project-card" data-cat="off-plan" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-img" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&amp;fit=crop&amp;q=80&amp;w=800'); background-size: cover;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="type-badge"&gt;OFF-PLAN&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;Sky Residences — KAFD&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-loc"&gt;📍 Financial District, Riyadh&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="project-price"&gt;From SAR 1,200,000&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-metrics"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;7.5%&lt;/div&gt;&lt;div&gt;Yield&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;120&lt;/div&gt;&lt;div&gt;SQM&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;Selling&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Card 3 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="project-card" data-cat="commercial" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-img" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&amp;fit=crop&amp;q=80&amp;w=800'); background-size: cover;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="type-badge"&gt;COMMERCIAL&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="project-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;Grade-A Office — Olaya&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-loc"&gt;📍 Olaya District, Riyadh&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="project-price"&gt;From SAR 5,500,000&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="project-metrics"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;8.2%&lt;/div&gt;&lt;div&gt;Yield&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;320&lt;/div&gt;&lt;div&gt;SQM&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="p-metric"&gt;&lt;div&gt;Leased&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 6. ABOUT --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="about-split"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="serif" style="font-size: 2.5rem; color: var(--gold); margin-bottom: 30px;"&gt;"Every great investment starts with the right pivot."&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="margin-bottom: 20px;"&gt;Mihwar Real Estate is a REGA-licensed brokerage firm headquartered in Riyadh — the pivot point between international capital and the Kingdom's most compelling property market.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Our team brings hands-on real estate experience across KSA — with collective exposure spanning investment firms, family offices and leading developers. We launched during the historic 2026 reforms to ensure global investors are positioned at the centre of Saudi Arabia's transformation.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="about-metrics" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="metric-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2&gt;15+&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Years KSA Exp.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="metric-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2&gt;$520M&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Capital Advised&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="metric-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2&gt;12+&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Investor Markets&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="metric-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2&gt;100%&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;REGA Compliant&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 7. INSIGHTS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="bg-offwhite" id="insights"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mono" style="color: var(--gold);"&gt;MARKET INTELLIGENCE&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 style="font-size: 3rem; margin: 15px 0;"&gt;Insights &amp; Analysis&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="insight-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="insight-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="tag"&gt;GUIDE&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;The Complete Guide to Buying Property in KSA as a Foreigner&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size: 0.9rem; color: var(--muted-text);"&gt;Understanding the January 2026 regulatory shift and ownership zones...&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="author"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="avatar"&gt;MA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div style="font-size: 0.7rem;"&gt;&lt;strong&gt;Mihwar Advisory&lt;/strong&gt;&lt;br&gt;8 Min Read&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="insight-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="tag"&gt;ANALYSIS&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Riyadh vs Dubai: Where Should Investors Look in 2026?&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size: 0.9rem; color: var(--muted-text);"&gt;A comparative analysis of rental yields and capital appreciation...&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="author"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="avatar"&gt;MA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div style="font-size: 0.7rem;"&gt;&lt;strong&gt;Mihwar Advisory&lt;/strong&gt;&lt;br&gt;5 Min Read&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="insight-card" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="tag"&gt;REPORT&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Vision 2030: The Second Phase Real Estate Opportunity&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size: 0.9rem; color: var(--muted-text);"&gt;What the newest infrastructure spending means for residential prices...&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="author"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="avatar"&gt;MA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div style="font-size: 0.7rem;"&gt;&lt;strong&gt;Mihwar Advisory&lt;/strong&gt;&lt;br&gt;10 Min Read&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 8. CONTACT --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="bg-dark" id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="contact-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mono" style="color: var(--gold);"&gt;GET IN TOUCH&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 style="font-size: 3rem; margin: 20px 0;"&gt;Start Your Saudi Journey&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="opacity: 0.7; margin-bottom: 40px;"&gt;Whether you are a first-time foreign investor exploring the Kingdom or an experienced regional player — we are your central address in Saudi real estate.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul style="opacity: 0.8;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;svg class="icon icon-gold"&gt;&lt;path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"&gt;&lt;/path&gt;&lt;circle cx="12" cy="9" r="3"&gt;&lt;/circle&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>Riyadh, Kingdom of Saudi Arabia</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;svg class="icon icon-gold"&gt;&lt;rect x="2" y="4" width="20" height="16" rx="2"&gt;&lt;/rect&gt;&lt;path d="m22 7-10 7L2 7"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>hello@mihwarrealestate.com</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="contact-form" data-reveal&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;label&gt;FULL NAME&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;input type="text" placeholder="Your name"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;label&gt;EMAIL ADDRESS&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;input type="email" placeholder="Your email"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;label&gt;RESIDENCY&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;United Kingdom&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;United States&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;UAE&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;Other&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;label&gt;BUDGET (SAR)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;Under 1M&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;1M - 3M&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;3M - 7M&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;option&gt;7M+&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label&gt;MESSAGE&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;textarea rows="4" placeholder="How can we help you?"&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="btn btn-gold" style="width: 100%; border: none;"&gt;Book My Consultation&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- FOOTER --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="footer-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="logo footer-logo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="logo-box"&gt;M&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="logo-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div style="color: white;"&gt;MIHWAR&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;REAL ESTATE&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="opacity: 0.5; font-size: 0.9rem; line-height: 1.8;"&gt;The pivot point between international capital and the Kingdom's most compelling property market.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4&gt;QUICK LINKS&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="#why-saudi"&gt;Why Saudi&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4&gt;SERVICES&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;Brokerage&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;Investment Advisory&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;Property Sourcing&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;Intelligence&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4&gt;CONTACT&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;Riyadh, KSA&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;hello@mihwar.com&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;+966 5X XXX XXXX&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="footer-bottom"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;© 2026 Mihwar Real Estate. REGA Licensed · FAL Certified&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mono" style="color: var(--gold);"&gt;Vision 2030 Aligned&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Sticky Header</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.addEventListener('scroll', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const nav = document.getElementById('navbar');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (window.scrollY &gt; 50) nav.classList.add('scrolled');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>else nav.classList.remove('scrolled');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Reveal Animations</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const observerOptions = { threshold: 0.1 };</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const observer = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>entries.forEach(entry =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (entry.isIntersecting) entry.target.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}, observerOptions);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.querySelectorAll('[data-reveal]').forEach(el =&gt; observer.observe(el));</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Stats Counter</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const stats = document.querySelectorAll('.count');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const countObserver = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (entries[0].isIntersecting) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>stats.forEach(stat =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const target = parseFloat(stat.getAttribute('data-target'));</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>let current = 0;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const increment = target / 50;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const updateCount = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (current &lt; target) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>current += increment;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>stat.innerText = (target % 1 === 0 ? Math.ceil(current) : current.toFixed(1)) + (stat.innerText.includes('%') ? '%' : (stat.innerText.includes('+') ? '+' : ''));</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>if (stat.innerText.startsWith('$')) stat.innerText = '$' + stat.innerText;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>setTimeout(updateCount, 20);</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>stat.innerText = (target % 1 === 0 ? target : target.toFixed(1)) + (stat.innerText.includes('%') ? '%' : (stat.innerText.includes('+') ? '+' : ''));</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>if (stat.innerText.includes('$')) stat.innerText = '$' + stat.innerText;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>};</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>updateCount();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                </span>countObserver.disconnect();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>countObserver.observe(document.querySelector('.hero-stats'));</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Project Filter</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const filterBtns = document.querySelectorAll('.filter-btn');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const projectCards = document.querySelectorAll('.project-card');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>filterBtns.forEach(btn =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>btn.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>filterBtns.forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">                </span>btn.classList.add('active');</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const filter = btn.getAttribute('data-filter');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>projectCards.forEach(card =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (filter === 'all' || card.getAttribute('data-cat') === filter) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>card.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>setTimeout(() =&gt; card.style.opacity = '1', 10);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>card.style.opacity = '0';</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>setTimeout(() =&gt; card.style.display = 'none', 500);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
